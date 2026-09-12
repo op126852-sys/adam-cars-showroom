@@ -140,7 +140,7 @@ export default function Home() {
 
       const track = galleryTrackRef.current;
       const gallery = galleryRef.current;
-      if (track && gallery) {
+      if (track && gallery && window.innerWidth > 700) {
         const getDistance = () => Math.max(0, track.scrollWidth - window.innerWidth + 80);
         gsap.to(track, {
           x: () => -getDistance(),

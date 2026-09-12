@@ -288,6 +288,7 @@ button:not(:disabled), a[href], select:not(:disabled), input:not(:disabled) { cu
   .collection-intro { display: flex; flex-direction: column; min-height: 610px; gap: 62px; }
   .collection-heading h2, .philosophy-copy h2, .services-heading h2 { font-size: clamp(58px, 16vw, 89px); }
   .collection-intro-bottom { margin-top: auto; padding-bottom: 0; }
+  .gallery-section { min-height: auto; overflow-x: auto; overflow-y: hidden; }
   .gallery-track { min-height: auto; padding: 66px 20px 90px; gap: 15px; }
   .gallery-lead-panel { flex-basis: 265px; padding: 20px 12px 20px 0; }
   .gallery-lead-panel h3, .gallery-end-panel h3 { font-size: 53px; }
